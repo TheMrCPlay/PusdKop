@@ -1,0 +1,22 @@
+2014-04-27 19:33:42,328 [11] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.Users/Orchard.Users.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.Users\Models\UserQuestionnaire.cs(12): error CS0246: Не удалось найти имя типа или пространства имен "UserQuestionnaireRecord" (пропущена директива using или ссылка на сборку?)
+   в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-04-27 19:33:42,836 [11] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.Users"
+2014-04-27 19:43:19,085 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/Orchard.Users/Orchard.Users.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.Users\Models\UserQuestionnaire.cs(12): error CS0246: Не удалось найти имя типа или пространства имен "UserQuestionnaireRecord" (пропущена директива using или ссылка на сборку?)
+   в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-04-27 19:43:19,350 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "Orchard.Users"

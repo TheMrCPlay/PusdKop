@@ -1,0 +1,7 @@
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll.config
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\System.Web.Mvc.dll
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\System.Web.Mvc.xml
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
+C:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb

@@ -1,0 +1,81 @@
+2014-05-01 01:43:00,283 [26] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.AssemblyBuilder.Compile()
+   в System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   в System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:00,385 [26] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "PusdKop.Questionnaire"
+2014-05-01 01:43:08,918 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:09,101 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:09,420 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:09,488 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:09,577 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:09,734 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53
+2014-05-01 01:43:09,798 [65] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/PusdKop.Questionnaire/PusdKop.Questionnaire.csproj.
+System.Web.HttpCompileException (0x80004005): c:\Users\Jan\Dropbox\Orchard\src\Orchard.Web\Modules\PusdKop.Questionnaire\Controllers\HomeController.cs(50): error CS1502: Наиболее подходящий перегруженный метод для "System.Web.Mvc.ModelStateDictionary.AddModelError(string, System.Exception)" имеет несколько недопустимых аргументов
+   в System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   в System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   в System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   в Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) в c:\Users\Jan\Dropbox\Orchard\src\Orchard\Environment\IBuildManager.cs:строка 53

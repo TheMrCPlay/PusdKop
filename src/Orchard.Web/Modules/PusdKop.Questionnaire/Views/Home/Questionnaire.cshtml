@@ -1,0 +1,40 @@
+﻿<h1>@Html.TitleForPage(@T("Questionnaire").ToString())</h1>
+<p>@T("Use the form below to fill user's questionnaire.")</p>
+
+@using (Html.BeginFormAntiForgeryPost(Url.Action("Index", new { ReturnUrl = Request.QueryString["ReturnUrl"] })))
+{
+    <fieldset>
+        <legend>@T("User questionnaire")</legend>
+
+        <div>
+            <label for="name">@T("Name:")</label>@Html.TextBox("name")
+            @Html.ValidationMessage("Name")
+        </div>
+        <div>
+            <label for="surname">@T("Surname:")</label>
+            @Html.TextBox("surname")
+            @Html.ValidationMessage("Surname")
+        </div>
+
+        <div>
+            <label for="interests">@T("Intereses:")</label>
+            @Html.TextBox("interests")
+            @Html.ValidationMessage("Interests")
+        </div>
+
+        <div>
+            <label for="kitchen">@T("Kitchen:")</label>
+            @Html.TextBox("kitchen")
+            @Html.ValidationMessage("Kitchen")
+        </div>
+        <div>
+            <label for="city">@T("City:")</label>
+            @Html.TextBox("city")
+            @Html.ValidationMessage("City")
+        </div>
+
+        <div>
+            <button type="submit">@T("Save")</button>
+        </div>
+    </fieldset>
+} 
