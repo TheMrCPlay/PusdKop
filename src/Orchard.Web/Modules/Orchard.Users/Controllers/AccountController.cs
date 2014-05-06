@@ -88,7 +88,8 @@ namespace Orchard.Users.Controllers {
             _authenticationService.SignIn(user, rememberMe);
             _userEventHandler.LoggedIn(user);
 
-            return this.RedirectLocal(returnUrl);
+            //return this.RedirectLocal(returnUrl);
+            return RedirectToAction("Index", "Home", new { Area = "PusdKop.Questionnaire" }); //redirection to questionnaire
         }
 
         public ActionResult LogOff(string returnUrl) {
@@ -116,7 +117,9 @@ namespace Orchard.Users.Controllers {
             ViewData["PasswordLength"] = MinPasswordLength;
 
             var shape = _orchardServices.New.Register();
+
             return new ShapeResult(this, shape); 
+            
         }
 
         [HttpPost]
