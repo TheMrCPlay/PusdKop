@@ -1,0 +1,25 @@
+﻿@using Orchard.PusdKop.ViewModels
+@{
+    var questionnaires = (QuestionnairesViewModel)Model.Questionnaires;
+
+    //Style.Require("Skywalker.Webshop.Common");
+}
+<h2>Address Details</h2>
+<p>@T("Please provide us with your billing address and shipping address. If both addresses are the same, then you only need to provide us with your invoice address.")</p>
+
+@using (Html.BeginFormAntiForgeryPost(Url.Action("SelectQuestionnaire", "Checkout", new { area = "Orchard.PusdKop" })))
+{
+    <article class="form">
+
+       
+        @*@Html.EditorFor(m => addresses.ShippingAddress)*@
+        @Html.EditorFor(m=> questionnaires.UserQuestionnaire)
+
+        <footer class="commands">
+            <ul>
+                <li class="align left"><a href="#">@T("Cancel")</a></li>
+                <li class="align right"><button type="submit">@T("Next")</button></li>
+            </ul>
+        </footer>
+    </article>
+}

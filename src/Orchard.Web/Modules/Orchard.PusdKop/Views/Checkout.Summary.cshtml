@@ -1,0 +1,21 @@
+﻿@using Orchard.ContentManagement
+@using Orchard.PusdKop.Models
+ @{
+     //Style.Require("");
+     var userQuestionnaire = Model.UserQuestionnaire;
+ }
+
+<article class="addresses form">
+    <div class="invoice-address">
+        <h2>Questionnaire form</h2>
+        <ul class="address-fields">
+            <li>@UserQuestionnaire.Name.Value</li>
+            <li>@UserQuestionnaire.AddressLine1.Value</li>
+            <li>@UserQuestionnaire.AddressLine2.Value</li>
+            <li>@UserQuestionnaire.Zipcode.Value</li>
+            <li>@UserQuestionnaire.City.Value</li>
+            <li>@UserQuestionnaire.Country.Value</li>
+        </ul>
+    </div>
+    
+</article>

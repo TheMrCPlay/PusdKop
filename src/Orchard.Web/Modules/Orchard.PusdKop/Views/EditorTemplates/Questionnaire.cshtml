@@ -1,0 +1,29 @@
+﻿@model Orchard.PusdKop.ViewModels.QuestionnaireViewModel
+
+<fieldset>
+    <legend>@ViewData.ModelMetadata.GetDisplayName()</legend>
+    <ul>
+        <li>
+            <div class="field-label">@Html.LabelFor(m => m.Name, T("Name"))</div>
+            <div class="field-editor">@Html.EditorFor(m => m.Name)</div>
+        </li>
+        <li>
+            <div class="field-label">@Html.LabelFor(m => m.Surname, T("Surname"))</div>
+            <div class="field-editor">@Html.EditorFor(m => m.Surname)</div>
+        </li>
+        
+        <li>
+            <div class="field-label">@Html.LabelFor(m => m.Interests, T("Interests"))</div>
+            <div class="field-editor">@Html.EditorFor(m => m.Interests)</div>
+        </li>
+        <li>
+            <div class="field-label">@Html.LabelFor(m => m.Kitchen, T("Kitchen"))</div>
+            <div class="field-editor">@Html.EditorFor(m => m.Kitchen)</div>
+        </li>
+        <li>
+            <div class="field-label">@Html.LabelFor(m => m.City, T("City"))</div>
+            <div class="field-editor">@Html.EditorFor(m => m.City)</div>
+        </li>
+        
+    </ul>
+</fieldset>
